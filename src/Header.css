@@ -30,6 +30,13 @@
     height: 22px !important;
     background-color: #cd9042;
 }
+.header_optionLineOne{
+    font-size: 10px;
+}
+.header_optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
 .header_nav{
     display: flex;
     justify-content: space-evenly;
