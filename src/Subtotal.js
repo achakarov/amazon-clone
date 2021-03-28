@@ -5,7 +5,7 @@ import { useStateValue } from './StateProvider';
 import './Subtotal.css';
 
 function Subtotal() {
-  const [{ user, basket }, dispatch] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
 
   return (
     <div className="subtotal">
@@ -14,7 +14,7 @@ function Subtotal() {
           <>
             <p>
               Subtotal ({basket.length} items):
-              <strong>{` ${value}`}</strong>
+              <strong>{value}</strong>
             </p>
             <small className="subtotal-gift">
               <input type="checkbox" /> This order contains a gift
